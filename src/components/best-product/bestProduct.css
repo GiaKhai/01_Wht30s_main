@@ -2,7 +2,6 @@
     background-image: url("../../image/bes-bg.png");
     background-size: cover;
     width: 100%;
-    color: #ffffff;
     padding: 100px 0;
 }
 
@@ -15,7 +14,7 @@
     letter-spacing: 5px;
     text-align: center;
     text-transform: uppercase;
-    color: #f96400;
+    color: var(--bright-orange);
 }
 
 .content {
@@ -27,7 +26,7 @@
     line-height: 1.6;
     letter-spacing: normal;
     text-align: center;
-    color: #f96400;
+    color: var(--bright-orange);
 }
 
 .product {
@@ -51,7 +50,7 @@
     border: solid 3px #020001;
     background-color: #ffffff;
     width: 260px; 
-    color: #222222;
+    color: var(--black-three);
     top: 90%;
     left: 20%;
     padding: 2%;

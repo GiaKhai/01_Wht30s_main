@@ -1,0 +1,70 @@
+.brand-story-area {
+    padding: 100px 0;
+    background-color: var(--cerulean);
+    position:relative;
+
+}
+
+.brand-story-area .title {
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--sun-yellow);
+    /* z-index: 1; */
+}
+
+.brand-story-area .content {
+    margin: 10px 20%;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--sun-yellow);
+    /* z-index: 1; */
+}
+
+
+.window {
+    background-image: url("../../image/window.png");
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+
+}
+.window-story {
+    padding: 40px 30px;
+}
+
+.title-story {
+    font-size: 25px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.4;
+    margin: 10px 0;
+    color: var(--black-three);
+}
+
+.content-story {
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    margin: 5px;
+    color: var(--black-three);
+}
+
+.img1 {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}

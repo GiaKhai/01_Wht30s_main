@@ -2,20 +2,114 @@
     background-image: url("../../image/introduction-bg.png");
     background-size: cover;
     width: 100%;
-    color: #ffffff;
-    padding: 100px 0;
+    color: var(--white);
+    padding: 100px;
 }
 
 .title-intro {
     margin: 50px 0;
-    width: 562px;
-    height: 37px;
     line-height: 1.2;
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
+
 }
 .content-intro {
     font-size: 20px;
     line-height: 1.75;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-intro {
+            margin: 10px 0;
+
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .intro {
+        padding: 20px;
+    }
+    .content-intro {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .title-intro {
+        margin: 10px 0;
+
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .intro {
+        padding: 20px;
+    }
+
+    .content-intro {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .title-intro {
+        margin: 10px 0;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .intro {
+        padding: 25px;
+    }
+
+    .content-intro {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .intro {
+        background-image: url("../../image/introduction-bg.png");
+        background-size: cover;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .title-intro {
+        margin: 50px 0;
+        line-height: 1.2;
+        font-size: 50px;
+        font-weight: 800;
+        text-transform: uppercase;
+
+    }
+
+    .content-intro {
+        font-size: 20px;
+        line-height: 1.75;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .intro {
+        background-image: url("../../image/introduction-bg.png");
+        background-size: cover;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .title-intro {
+        margin: 50px 0;
+        line-height: 1.2;
+        font-size: 50px;
+        font-weight: 800;
+        text-transform: uppercase;
+
+    }
+
+    .content-intro {
+        font-size: 20px;
+        line-height: 1.75;
+    }
 }

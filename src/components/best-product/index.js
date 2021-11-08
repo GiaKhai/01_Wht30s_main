@@ -35,10 +35,10 @@ const BestProduct = () => {
             every team makes a lot of videos Can be trimmed. Take the first
           </div>
           <div className="product">
-            <div class="row">
+            <div className="row">
               {product.map((product) => {
                 return (
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <Product key={product.index} product={product} />
                   </div>
                 );
