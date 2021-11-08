@@ -1,0 +1,19 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #111111;
+}
+.navbar a {
+    color: #ffffff;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: #a5a5a5;
+}

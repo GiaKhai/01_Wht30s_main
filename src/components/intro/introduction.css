@@ -1,0 +1,21 @@
+.intro {
+    background-image: url("../../image/introduction-bg.png");
+    background-size: cover;
+    width: 100%;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.title-intro {
+    margin: 50px 0;
+    width: 562px;
+    height: 37px;
+    line-height: 1.2;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.content-intro {
+    font-size: 20px;
+    line-height: 1.75;
+}
