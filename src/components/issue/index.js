@@ -1,15 +1,8 @@
-import "./story.css";
-// import img1 from "../../image/stoty/object-01.png";
-// import img2 from "../../image/stoty/object-02.png";
-// import img3 from "../../image/stoty/object-03.png";
-// import img4 from "../../image/stoty/object-04.png";
-// import img5 from "../../image/stoty/object-05.png";
-// import img6 from "../../image/stoty/object-06.png";
-// import img7 from "../../image/stoty/object-07.png";
+import "./issue.css";
 
 const BrandStory = () => {
   return (
-    <div className="brand-story-area">
+    <div className="issue-area">
       <div className="container">
         <div className="description">
           <div className="title">Brand Story</div>
