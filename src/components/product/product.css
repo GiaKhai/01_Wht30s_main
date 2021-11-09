@@ -57,11 +57,15 @@
     border-radius: 5px;
     text-transform: uppercase;
     text-align: center;
-    background-color: var(--white);
+    background-color: transparent;
     font-size: 18px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.09;
     letter-spacing: normal;
+}
+
+.btn-see {
+    cursor: pointer;
 }

@@ -1,3 +1,4 @@
+import Issue from "components/issue";
 import "./App.css";
 import Banner from "./components/banner";
 import BestProduct from "./components/best-product";
@@ -15,6 +16,7 @@ function App() {
       <BestProduct />
       <Product />
       <BrandStory />
+      <Issue />
     </div>
   );
 }
