@@ -1,3 +1,5 @@
+import Footer from "components/footer";
+import Happened from "components/happened";
 import Issue from "components/issue";
 import "./App.css";
 import Banner from "./components/banner";
@@ -17,6 +19,8 @@ function App() {
       <Product />
       <BrandStory />
       <Issue />
+      <Happened />
+      <Footer />
     </div>
   );
 }
