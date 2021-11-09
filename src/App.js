@@ -9,7 +9,7 @@ import BrandStory from "./components/stoty";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Banner />
       <Introduction />
       {/* <BestProduct /> */}
