@@ -1,11 +1,11 @@
 import "./story.css";
-// import img1 from "../../image/stoty/object-01.png";
-// import img2 from "../../image/stoty/object-02.png";
-// import img3 from "../../image/stoty/object-03.png";
-// import img4 from "../../image/stoty/object-04.png";
-// import img5 from "../../image/stoty/object-05.png";
-// import img6 from "../../image/stoty/object-06.png";
-// import img7 from "../../image/stoty/object-07.png";
+import img1 from "../../image/stoty/object-01.png";
+import img2 from "../../image/stoty/object-02.png";
+import img3 from "../../image/stoty/object-03.png";
+import img4 from "../../image/stoty/object-04.png";
+import img5 from "../../image/stoty/object-05.png";
+import img6 from "../../image/stoty/object-06.png";
+import img7 from "../../image/stoty/object-07.png";
 
 const BrandStory = () => {
   return (
@@ -49,13 +49,13 @@ const BrandStory = () => {
           <button className="btn-see">see more</button>
         </div>
       </div>
-      {/* <img className="img1" src={img1} alt="" />
+      <img className="img1" src={img1} alt="" />
       <img className="img2" src={img2} alt="" />
       <img className="img3" src={img3} alt="" />
       <img className="img4" src={img4} alt="" />
       <img className="img5" src={img5} alt="" />
       <img className="img6" src={img6} alt="" />
-      <img className="img7" src={img7} alt="" /> */}
+      <img className="img7" src={img7} alt="" />
     </div>
   );
 };

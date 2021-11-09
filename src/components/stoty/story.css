@@ -5,6 +5,8 @@
 }
 
 .brand-story-area .title {
+  position: relative;
+  z-index: 10;
   font-size: 50px;
   font-weight: bold;
   font-stretch: normal;
@@ -14,7 +16,6 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--sun-yellow);
-  /* z-index: 1; */
 }
 
 .brand-story-area .content {
@@ -27,14 +28,14 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--sun-yellow);
-  /* z-index: 1; */
 }
 
 .window {
+  position: relative;
   background-image: url("../../image/window.png");
   background-size: cover;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 .window-story {
   padding: 40px 30px;
@@ -64,10 +65,64 @@
   position: absolute;
   top: 80px;
   left: 100px;
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  top: 35px;
+  right: 170px;
+  z-index: 1;
+}
+
+.img3 {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  z-index: 1;
+}
+
+.img4 {
+  position: absolute;
+  top: 200px;
+  right: -120px;
+  z-index: 1;
+}
+.img5 {
+  position: absolute;
+  top: 550px;
+  right: -80px;
+  z-index: 1;
+  width: 18%;
+}
+
+.img6 {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  z-index: 1;
+  width: 10%;
+}
+
+.img7 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  z-index: 1;
+  width: 10%;
 }
 
 @media only screen and (max-width: 600px) {
   .window {
+    display: none;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7 {
     display: none;
   }
 }
@@ -76,10 +131,28 @@
   .window {
     display: none;
   }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .window {
+    display: none;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7 {
     display: none;
   }
   .title-story {
@@ -110,13 +183,21 @@
     letter-spacing: normal;
     text-align: center;
     color: var(--sun-yellow);
-    /* z-index: 1; */
   }
 }
 
 @media only screen and (min-width: 992px) {
   .window {
     display: none;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7 {
+    display: block;
   }
 
   .title-story {
